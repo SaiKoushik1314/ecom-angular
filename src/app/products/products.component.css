@@ -1,0 +1,67 @@
+ .product-page {
+    width: 100%;
+}
+.product-page-container {
+    max-width: 1140px;
+    padding: 0 30px;
+    margin: auto;
+    display: inline-table;
+}
+
+
+.product-details-image {
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 992px) {
+    .product-details-image {
+        width: 100%;
+        padding-top: 66.6%;
+    }
+}
+.product-productName {
+    color: #a9a9a9;
+    font-size:1.4em;
+}
+.product-brandName {
+    margin:13px 0;
+    font-size: smaller;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    color: #c1c1c1;
+}
+.product-price {
+    color:#787878;
+    font-family: "Playfair Display";
+    font-size:14px;
+    display: inline-flex;
+    background-color:#e7e7e7;
+    margin-bottom: 10%;
+}
+
+.topnav {
+    background-color: lightslategrey;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: lightslategrey;
+    color: white;
+  }
